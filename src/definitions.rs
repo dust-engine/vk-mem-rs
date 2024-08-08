@@ -4,6 +4,7 @@ use ash::vk::PhysicalDevice;
 use bitflags::bitflags;
 use std::marker::PhantomData;
 use std::ptr;
+use std::ops::Deref;
 
 /// Intended usage of memory.
 #[derive(Debug, Clone, Copy, Eq, PartialEq, Hash, PartialOrd, Ord)]
